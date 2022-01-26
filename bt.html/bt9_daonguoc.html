@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function so_dao_nguoc(num1,num2){}
+           let num1 = +prompt("Nhập mảng");
+           let so_dao = 0;
+           
+        while (num1 != 0) {
+            let num2 =num1 % 10;
+            so_dao = so_dao * 10 + num2;
+            num1 = Math.floor(num1 / 10);
+        }
+           alert("số đảo ngược là "+ so_dao);
+    </script>  
+</body>
+</html>
